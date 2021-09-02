@@ -1,0 +1,26 @@
+body{
+    font-family: sans-serif;
+    color: black;
+}
+#webname{
+    text-align: center;
+    font-size: xx-large;
+    
+}
+header{
+    text-align: center;
+    margin-top: -3%;
+    margin-inline: -6%;
+    /* font-size: x-large; */
+    background: url(bg1.jpg);
+    background-position-x: -150px;
+    background-size: cover ;
+    
+    padding-top: 75%;
+    padding-bottom: 105%;
+}
+#headerpara{
+    max-width: 700px;
+    margin: 20px;
+    font-size: x-small;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Easy @tusharsingla002</title>
+    <!-- <link rel="stylesheet" href="main.css"> -->
+</head>
+
+<body>
+<header>
+    <h1 id="webname">
+        Web Easy <br>
+        @tusharsingla002
+    </h1>
+    <p id="headerpara">
+        A small team to create basic web pages to grow small businesses at a very minimal charges. We are the team to learn more and apply our knowledge to grow our mind and to help others.
+        <br>Grow together, learn together and inspire each other
+    </p>
+</header>
+<nav>
+        <a href="index.html" class="navlink" id="navlink1">Home</a>
+        <a href="about.html" class="navlink" id="navlink2">About</a>
+        <a href="contact.html" class="navlink" id="navlink3">Contact</a>
+</nav>
+
+<script>
+    if (screen.width > 750) {
+        var head = document.getElementsByTagName('HEAD')[0];
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'main.css';
+        head.appendChild(link);
+    }
+    else{
+        var head = document.getElementsByTagName('HEAD')[0];
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'main2.css';
+        head.appendChild(link);
+    }
+
+
+</script>
+</body>
+</html>
